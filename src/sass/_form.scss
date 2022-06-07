@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;700&family=PT+Sans:wght@400;700&family=Roboto+Slab:wght@300;400;600;700&display=swap');
+
+html{
+  background-color: #1f1f1f;
+}
+
+.card{
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.26);
+}
+
+
+.input {
+  width: 90%;
+  max-width: 40rem;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.input label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.input input {
+  font: inherit;
+  display: block;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0.15rem;
+  border: 1px solid #ccc;
+}
+
+.input input:focus {
+  border-color: #4f005f;
+  outline: none;
+}

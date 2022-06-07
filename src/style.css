@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;700&family=PT+Sans:wght@400;700&family=Roboto+Slab:wght@300;400;600;700&display=swap");
+html {
+  background-color: #1f1f1f;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: white;
+  -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.input {
+  width: 90%;
+  max-width: 40rem;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.input label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.input input {
+  font: inherit;
+  display: block;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0.15rem;
+  border: 1px solid #ccc;
+}
+
+.input input:focus {
+  border-color: #4f005f;
+  outline: none;
+}
+
+.users {
+  width: 90%;
+  max-width: 40rem;
+  margin: 2rem auto;
+}
+
+.users ul {
+  padding: 1rem;
+  list-style: none;
+}
+
+.users li {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+.button {
+  font: inherit;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  color: white;
+  border: 1px solid #4f005f;
+  background: #4f005f;
+}
+
+.button:hover,
+.button:active {
+  border-color: #741188;
+  background: #741188;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.backdrop {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.backdrop div:first-child {
+  position: fixed;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  width: 80%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.header {
+  padding: 1rem;
+  border-radius: 10px 10px 0 0;
+  background: #4f005f;
+}
+
+.header h2 {
+  margin: 0;
+  color: white;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+@media (min-width: 768px) {
+  .modal {
+    left: calc(50% - 20rem);
+    width: 40rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
