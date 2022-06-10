@@ -7,15 +7,7 @@
   height: 100vh;
   background: rgba(0, 0, 0, 0.75);
 
-  div:first-child {
-    position: fixed;
-    z-index: 100;
-    top: 50%;
-    left: 50%;
-    overflow: hidden;
-    width: 80%;
-    transform: translate(-50%,-50%);
-  }
+  
 }
 
 .header {
@@ -38,6 +30,20 @@
   padding: 1rem;
   justify-content: flex-end;
 }
+
+#overlay-root{
+
+  div:first-child {
+    position: fixed;
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    width: 80%;
+    transform: translate(-50%,-50%);
+  }
+}
+
 
 @media (min-width: 768px) {
   .modal {
